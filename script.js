@@ -4,7 +4,7 @@ let listaSpesa = [
 
 let fermo = false;
 
-while(stop === false){
+while(fermo === false){
     const prodotti = prompt ("cosa devi comprare?")
     if( prodotti === 'stop'){
 
@@ -13,4 +13,7 @@ while(stop === false){
     }
 }
 
+for(let i=0; i < listaSpesa.length; i++){
+    console.log(listaSpesa[i])
+}
 console.log(listaSpesa)
