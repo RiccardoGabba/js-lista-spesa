@@ -6,8 +6,9 @@ let fermo = false;
 
 while(fermo === false){
     const prodotti = prompt ("cosa devi comprare?")
+    
     if( prodotti === 'stop'){
-
+        fermo = true;
     }else{
         listaSpesa.push(prodotti);
     }
